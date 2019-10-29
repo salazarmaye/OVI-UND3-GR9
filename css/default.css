@@ -1,3 +1,6 @@
+.complete {
+	background: var(--color-azul);
+}
 .dropdownmenu ul, .dropdownmenu li {
 	margin: 0;
 	padding: 0;
@@ -13,7 +16,7 @@
 	width:auto;
 }
 .dropdownmenu a {
-	background: #30A6E6;
+	background: var(--color-azul);
 	color: #FFFFFF;
 	display: block;
 	font: bold 12px/20px sans-serif;
@@ -27,7 +30,7 @@
 	transition: all .25s ease;
 }
 .dropdownmenu li:hover a {
-	background: #000000;
+	background: var(--color-amarillo);
 }
 #submenu {
 	left: 0;
@@ -47,8 +50,33 @@ li:hover ul#submenu {
 	width: 100%;
 }
 #submenu a:hover {
-	background: #DF4B05;
+	background: var(--color-amarillo);
 }
 #submenu a {
-	background-color:#000000;
+	background-color: var(--color-azul);
+}
+
+
+.campo-generico .nav-tabs.nav-justified > li.active > a, .nav-tabs.nav-justified > li.active > a:hover, .nav-tabs.nav-justified > li.active > a:focus{
+	border: 1px solid rgba(1,146,203,1.00);
+	color: white;
+	background: var(--color-amarillo);
+	border-radius: 4px 4px 0 0;
+}
+.campo-azul .nav-tabs.nav-justified > li.active > a, .nav-tabs.nav-justified > li.active > a:hover, .nav-tabs.nav-justified > li.active > a:focus{
+	border: none;
+	color: white;
+	border-radius: 4px 4px 0 0;
+}
+
+h2 {
+	text-align: center;
+	color: var(--color-naranja);
+	
+}
+
+.img-text 
+h2 {
+float: left;
+	
 }
