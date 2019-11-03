@@ -1,0 +1,236 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Seguridad Informatica</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/style-jf.css" rel="stylesheet" type="text/css">
+	<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+	<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+	<link href="css/components.css" rel="stylesheet" type="text/css">
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+	<link href="css/default.css" rel="stylesheet" type="text/css">
+
+	
+
+	<!--<link href="jQueryAssets/jquery.ui.button.min.css" rel="stylesheet" type="text/css">-->
+   	
+   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.2.0.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed --> 
+	<script src="js/bootstrap.js"></script>
+	<!--<script src="jQueryAssets/jquery-1.11.1.min.js" type="text/javascript"></script>-->
+	<script src="jQueryAssets/jquery.ui-1.10.4.button.min.js" type="text/javascript"></script>
+    <!--<script src="js/pluggin-hover.js" type="text/javascript"></script>-->
+    
+   
+	<script>
+        var sidn = {
+			zoom: 100,
+			zoomApp: function(action){
+				if(action == 'plus'){
+					sidn.zoom = sidn.zoom + 10;
+				}else{
+					sidn.zoom = sidn.zoom - 10;
+				}
+				document.body.style.zoom = sidn.zoom + "%";
+			}		
+		};
+    </script>
+</head>
+<body>
+<div class="container-fluid container-menu-fondo">
+  <div class="container">
+    <div class="row">
+       <div class="imagen-logo visible-sm visible-md visible-lg"><img src="images/logoUNAD.png" class="img-responsive" alt="Placeholder image"></div>
+       <div class="imagen-logo visible-xs"><img src="images/logo-sidn-paginaweb-mobile.jpg" class="img-responsive" alt="Placeholder image"></div>
+       <div class="col-md-offset-3 col-md-9 contenedor-barra">
+          <nav class="navbar navbar-default contenedor-barra-menu">
+            <!--<div class="container-fluid contenedor-menu"> -->
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed navbar-mobile" data-toggle="collapse" data-target="#defaultNavbar1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+              </div>
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="defaultNavbar1">
+                <ul class="nav navbar-nav navbar-right">
+				<li><img style="border: 0px solid; display: inline;" alt="contador de visitas" src="http://www.websmultimedia.com/contador-de-visitas.php?id=273667"></a></li>
+                </ul>
+              </div>
+              <!-- /.navbar-collapse -->
+            <!--</div> -->
+            <!-- /.container-fluid -->
+          </nav>
+        </div>
+    </div>
+  </div>
+</div>
+
+	<!-- Menu principal -->
+	<div class="complete">
+		<div class="container">
+		<nav class="dropdownmenu">
+			<ul>
+			  <li><a href="index.html">Inicio</a></li>
+			  <li><a href="conceptos.html">Conceptos</a>
+				<ul id="submenu">
+					<li><a href="concepto1.html">Hacker</a></li>
+					<li><a href="concepto2.html">Malware</a></li>
+					<li><a href="concepto3.html">Antivirus</a></li>
+					<li><a href="concepto4.html">Keylogger</a></li>
+					<li><a href="concepto5.html">Exploit</a></li>
+				  </ul>
+			</li>
+			<li><a href="Principios.html">Principios</a>
+			<li><a href="Usos.html">Usos</a>
+			<li><a href="Riesgos.html">Riesgos</a>
+			<li><a href="Tipos.html">Tipo de virus</a>
+			  <li><a href="#">Multimedia</a>
+				<ul id="submenu">
+				  <li><a href="Audio.html#">Audios</a></li>
+				  <li><a href="video.html">Videos</a></li>
+				</ul>
+			  </li>
+			  <li><a href="#">Actividades</a>
+				<ul id="submenu">
+				  <li><a href="Ahorcado.html">Ahorcado</a></li>
+				  <li><a href="tablero.html">Tricky</a></li>
+				</ul>
+			  </li>
+			  <li><a href="Autores.html">Autores</a></li>
+			</ul>
+		  </nav>
+		<!--//// menu principal-->
+		
+		</div>
+		</div>
+
+<!--<div class="fondo-menu-desplegable"></div>-->
+
+<!-- /carousel INTRO -->    
+<div class="container-carousel">
+	<div class="row">
+		<div class="col-md-12 carousel-size1">
+			<div id="carousel" class="carousel slide carousel-fade carousel-size1-img" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#carousel" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel" data-slide-to="1"></li>
+					<li data-target="#carousel" data-slide-to="2"></li>
+				</ol>
+				<!-- Carousel items -->
+				<div class="carousel-inner carousel-inner2">
+					<div class="active item item2"><img class="image-size image-border" src="images/carousel-inicial.jpg" alt="Firts slide image">
+						<div class="carousel-caption description">
+							<div><a href="#"><p>SEGURIDAD INFORMATICA </p></a></div>
+						</div>
+					</div>
+					<div class="item item2"><img class="image-size image-border" src="images/carousel-intro-1.jpg" alt="Second slide image">
+						<div class="carousel-caption description">
+							<div><a href="#"><p>SEGURIDAD INFORMATICA </p></a></div>
+						</div>
+					</div>
+					<div class="item item2"><img class="image-size image-border" src="images/carousel-intro-2.jpg" alt="Third slide image">
+						<div class="carousel-caption description">
+							<a href="#"><p>SEGURIDAD INFORMATICA</p></a>
+						</div>
+					</div>
+				</div>
+				<!-- Carousel nav -->
+				<a class="left carousel-control carousel-size1 carousel-control-left" href="#carousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left icon-carousel-left" aria-hidden="true"></span><span class="sr-only">Previous</span></a><a class="right carousel-control carousel-size1 carousel-control-right" href="#carousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right icon-carousel-right" aria-hidden="true"></span><span class="sr-only">Next</span></a>
+			</div>
+		</div>
+		
+	</div>
+
+
+
+<div class="container">
+	<h2>Audios - Multimedia</h2>
+	<div class="card-audio">
+	</br>
+	<h3><strong>Antivirus</strong></h3>	
+	<audio controls>
+				<source src="audios/antivirus.mp3" type="audio/mpeg">
+	</audio>
+	
+</br>
+<h3><strong>Hacker</strong></h3>	
+<audio controls>
+			<source src="audios/hacker.mp3" type="audio/mpeg">
+</audio>
+
+</br>
+<h3><strong>Malware</strong></h3>	
+<audio controls>
+			<source src="audios/malware.mp3" type="audio/mpeg">
+</audio>
+
+</div>
+</div>
+
+
+<!-- Boton para subir -->
+<a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up"></span></a>
+
+<!-- FOOTER -->
+
+</br>
+<footer class="container-fluid">
+	<ul>
+		<li>UNAD Jose Acevedo y Gomez - Dg. 17 Sur #33-24,  Bogotá D.C Colombia</li>
+		<li><a href="tel:01-800-0115223"><span class="glyphicon glyphicon-phone-alt"></span> PBX: 01-800-0115223</a></li>
+		<li><a href="mailto:bdtorresr@unadvirtual.edu.co"><span class="glyphicon glyphicon-envelope"></span> bdtorresr@unadvirtual.edu.co ; Qdmunars@unadvirtual.edu.co ; mrondons@unadvirtual.edu.co </a></li>
+		<li><a href="#"><span class="glyphicon glyphicon-globe"></span><span> www.seguridadinformatica.edu.co</span></a></li>
+	</ul>
+	<ul class="redes">
+		<li><a href="#"><img src="images/facebook-04.png"> Facebook</a></li>
+		<li><a href="#"><img src="images/instagram-04.png"> Instagram</a></li>
+		<li><a href="#"><img src="images/twitter-04.png"> Twitter</a></li>
+		<li><a href="#"><img src="images/youtube-04.png"> YouTube</a></li>
+	</ul>
+</footer>
+
+<!-- MODAL INICIO DE SESIÓN -->
+
+
+<script>
+$(document).ready(function(){
+     $(window).scroll(function () {
+            if ($(this).scrollTop() > 50) {
+                $('#back-to-top').fadeIn();
+            } else {
+                $('#back-to-top').fadeOut();
+            }
+        });
+        // scroll body to 0px on click
+        $('#back-to-top').click(function () {
+            $('#back-to-top').tooltip('hide');
+            $('body,html').animate({
+                scrollTop: 0
+            }, 800);
+            return false;
+        });
+        
+        $('#back-to-top').tooltip('show');
+
+});
+</script>
+
+
+<script>
+$('ul.nav li.dropdown').hover(function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+}, function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+});
+</script>
+
+
+</body>
+</html>

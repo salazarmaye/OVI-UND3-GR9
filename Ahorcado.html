@@ -1,0 +1,445 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Seguridad Informatica</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/style-jf.css" rel="stylesheet" type="text/css">
+	<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+	<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+	<link href="css/components.css" rel="stylesheet" type="text/css">
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+	<link href="css/default.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/nosotros.css">
+
+	
+
+	<!--<link href="jQueryAssets/jquery.ui.button.min.css" rel="stylesheet" type="text/css">-->
+   	
+   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.2.0.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed --> 
+	<script src="js/bootstrap.js"></script>
+	<!--<script src="jQueryAssets/jquery-1.11.1.min.js" type="text/javascript"></script>-->
+	<script src="jQueryAssets/jquery.ui-1.10.4.button.min.js" type="text/javascript"></script>
+    <!--<script src="js/pluggin-hover.js" type="text/javascript"></script>-->
+    
+   
+	<script>
+        var sidn = {
+			zoom: 100,
+			zoomApp: function(action){
+				if(action == 'plus'){
+					sidn.zoom = sidn.zoom + 10;
+				}else{
+					sidn.zoom = sidn.zoom - 10;
+				}
+				document.body.style.zoom = sidn.zoom + "%";
+			}		
+		};
+    </script>
+</head>
+<body>
+<div class="container-fluid container-menu-fondo">
+  <div class="container">
+    <div class="row">
+       <div class="imagen-logo visible-sm visible-md visible-lg"><img src="images/logoUNAD.png" class="img-responsive" alt="Placeholder image"></div>
+       <div class="imagen-logo visible-xs"><img src="images/logo-sidn-paginaweb-mobile.jpg" class="img-responsive" alt="Placeholder image"></div>
+       <div class="col-md-offset-3 col-md-9 contenedor-barra">
+          <nav class="navbar navbar-default contenedor-barra-menu">
+            <!--<div class="container-fluid contenedor-menu"> -->
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed navbar-mobile" data-toggle="collapse" data-target="#defaultNavbar1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+              </div>
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="defaultNavbar1">
+                <ul class="nav navbar-nav navbar-right">
+				<li><img style="border: 0px solid; display: inline;" alt="contador de visitas" src="http://www.websmultimedia.com/contador-de-visitas.php?id=273667"></a></li>
+                </ul>
+              </div>
+              <!-- /.navbar-collapse -->
+            <!--</div> -->
+            <!-- /.container-fluid -->
+          </nav>
+        </div>
+    </div>
+  </div>
+</div>
+
+	<!-- Menu principal -->
+	<div class="complete">
+		<div class="container">
+		<nav class="dropdownmenu">
+			<ul>
+			  <li><a href="index.html">Inicio</a></li>
+			  <li><a href="conceptos.html">Conceptos</a>
+				<ul id="submenu">
+					<li><a href="concepto1.html">Hacker</a></li>
+					<li><a href="concepto2.html">Malware</a></li>
+					<li><a href="concepto3.html">Antivirus</a></li>
+					<li><a href="concepto4.html">Keylogger</a></li>
+					<li><a href="concepto5.html">Exploit</a></li>
+				  </ul>
+			</li>
+			<li><a href="Principios.html">Principios</a>
+			<li><a href="Usos.html">Usos</a>
+			<li><a href="Riesgos.html">Riesgos</a>
+			<li><a href="Tipos.html">Tipo de virus</a>
+			  <li><a href="#">Multimedia</a>
+				<ul id="submenu">
+				  <li><a href="Audio.html#">Audios</a></li>
+				  <li><a href="video.html">Videos</a></li>
+				</ul>
+			  </li>
+			  <li><a href="#">Actividades</a>
+				<ul id="submenu">
+				  <li><a href="Ahorcado.html">Ahorcado</a></li>
+				  <li><a href="tablero.html">Tricky</a></li>
+				</ul>
+			  </li>
+			  <li><a href="Autores.html">Autores</a></li>
+			</ul>
+		  </nav>
+		<!--//// menu principal-->
+		
+		</div>
+		</div>
+
+<!--<div class="fondo-menu-desplegable"></div>-->
+
+<!-- /carousel INTRO -->    
+<div class="container-carousel">
+	<div class="row">
+		<div class="col-md-12 carousel-size1">
+			<div id="carousel" class="carousel slide carousel-fade carousel-size1-img" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#carousel" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel" data-slide-to="1"></li>
+					<li data-target="#carousel" data-slide-to="2"></li>
+				</ol>
+				<!-- Carousel items -->
+				<div class="carousel-inner carousel-inner2">
+					<div class="active item item2"><img class="image-size image-border" src="images/carousel-inicial.jpg" alt="Firts slide image">
+						<div class="carousel-caption description">
+							<div><a href="#"><p>SEGURIDAD INFORMATICA </p></a></div>
+						</div>
+					</div>
+					<div class="item item2"><img class="image-size image-border" src="images/carousel-intro-1.jpg" alt="Second slide image">
+						<div class="carousel-caption description">
+							<div><a href="#"><p>SEGURIDAD INFORMATICA </p></a></div>
+						</div>
+					</div>
+					<div class="item item2"><img class="image-size image-border" src="images/carousel-intro-2.jpg" alt="Third slide image">
+						<div class="carousel-caption description">
+							<a href="#"><p>SEGURIDAD INFORMATICA</p></a>
+						</div>
+					</div>
+				</div>
+				<!-- Carousel nav -->
+				<a class="left carousel-control carousel-size1 carousel-control-left" href="#carousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left icon-carousel-left" aria-hidden="true"></span><span class="sr-only">Previous</span></a><a class="right carousel-control carousel-size1 carousel-control-right" href="#carousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right icon-carousel-right" aria-hidden="true"></span><span class="sr-only">Next</span></a>
+			</div>
+		</div>
+		
+
+<!-------------CONTENIDO----------------------->
+<div class="container ahorcado" style="text-align: center;">
+        <p class="titulos">Ahorcado</p>
+<canvas id="pantalla" width="960px" height="450px"> <!-- etiqueta del canvas con sus medidasen la pantalla -->
+    Tu navegador no soporta Canvas.
+</canvas>
+<!-- El boton que nos sirve para recargar la pagina y asi generar una nueva palabra y volver a jugar -->
+<div class="campo-generico">
+<button id="jugar" type="reset" onclick="javascript:window.location.reload();">Volver a Jugar</button>
+</div>
+<script>
+    
+    /* Variables */
+    var ctx;
+    var canvas;
+    var palabra;
+    var letras = "QWERTYUIOPASDFGHJKLÑZXCVBNM";
+    var colorTecla = "black";
+    var colorMargen = "lightgray";
+    var inicioX = 200;
+    var inicioY = 300;
+    var lon = 35;
+    var margen = 20;
+    /* Arreglos */
+    var teclas_array = new Array();
+    var letras_array = new Array();
+    var palabras_array = new Array();
+    /* Variables de control */
+    var aciertos = 0;
+    var errores = 0;
+     
+    /* Palabras */
+    palabras_array.push("VIRUS");
+    palabras_array.push("HACKER");
+    palabras_array.push("MALWARE");
+    palabras_array.push("ANTIVIRUS");
+    palabras_array.push("KEYLOGGER");
+    palabras_array.push("PROTECCION");
+    palabras_array.push("EXPLOIT");
+    palabras_array.push("SISTEMA");
+    palabras_array.push("INTRUSO");
+    palabras_array.push("FIREWALL");
+    palabras_array.push("SOFTWARE");
+            
+    /* Objetos */
+    function Tecla(x, y, ancho, alto, letra){
+        this.x = x;
+        this.y = y;
+        this.ancho = ancho;
+        this.alto = alto;
+        this.letra = letra;
+        this.dibuja = dibujaTecla;
+    }
+    
+    function Letra(x, y, ancho, alto, letra){
+        this.x = x;
+        this.y = y;
+        this.ancho = ancho;
+        this.alto = alto;
+        this.letra = letra;
+        this.dibuja = dibujaCajaLetra;
+        this.dibujaLetra = dibujaLetraLetra;
+    }
+   
+    
+    /* Dibujar Teclas*/
+    function dibujaTecla(){
+        ctx.fillStyle = colorTecla;
+        ctx.strokeStyle = colorMargen;
+        ctx.fillRect(this.x, this.y, this.ancho, this.alto);
+        ctx.strokeRect(this.x, this.y, this.ancho, this.alto);
+        
+        ctx.fillStyle = "white";
+        ctx.font = "bold 20px courier";
+        ctx.fillText(this.letra, this.x+this.ancho/2-5, this.y+this.alto/2+5);
+    }
+    
+    /* Dibua la letra y su caja */
+    function dibujaLetraLetra(){
+        var w = this.ancho;
+        var h = this.alto;
+        ctx.fillStyle = "black";
+        ctx.font = "bold 40px Courier";
+        ctx.fillText(this.letra, this.x+w/2-12, this.y+h/2+14);
+    }
+    function dibujaCajaLetra(){
+        ctx.fillStyle = "white";
+        ctx.strokeStyle = "black";
+        ctx.fillRect(this.x, this.y, this.ancho, this.alto);
+        ctx.strokeRect(this.x, this.y, this.ancho, this.alto);
+    }
+     /* Distribuir nuestro teclado con sus letras respectivas al acomodo de nuestro array */
+    function teclado(){
+        var ren = 0;
+        var col = 0;
+        var letra = "";
+        var miLetra;
+        var x = inicioX;
+        var y = inicioY;
+        for(var i = 0; i < letras.length; i++){
+            letra = letras.substr(i,1);
+            miLetra = new Tecla(x, y, lon, lon, letra);
+            miLetra.dibuja();
+            teclas_array.push(miLetra);
+            x += lon + margen;
+            col++;
+            if(col==10){
+                col = 0;
+                ren++;
+                if(ren==2){
+                    x = 280;
+                } else {
+                    x = inicioX;
+                }
+            }
+            y = inicioY + ren * 50;
+        }
+    }
+    
+    /* aqui obtenemos nuestra palabra aleatoriamente y la dividimos en letras */
+    function pintaPalabra(){
+        var p = Math.floor(Math.random()*palabras_array.length);
+        palabra = palabras_array[p];
+        var w = canvas.width;
+        var len = palabra.length;
+        var ren = 0;
+        var col = 0;
+        var y = 230;
+        var lon = 50;
+        var x = (w - (lon+margen) *len)/2;
+        for(var i=0; i<palabra.length; i++){
+            letra = palabra.substr(i,1);
+            miLetra = new Letra(x, y, lon, lon, letra);
+            miLetra.dibuja();
+            letras_array.push(miLetra);
+            x += lon + margen;
+        }
+    }
+    
+    /* dibujar cadalzo y partes del pj segun sea el caso */
+    function horca(errores){
+        var imagen = new Image();
+        imagen.src = "images/ahorcado/ahorcado"+errores+".png";
+        imagen.onload = function(){
+            ctx.drawImage(imagen, 390, 0, 230, 230);
+        }
+    }
+    
+    /* ajustar coordenadas */
+    function ajusta(xx, yy){
+        var posCanvas = canvas.getBoundingClientRect();
+        var x = xx-posCanvas.left;
+        var y = yy-posCanvas.top;
+        return{x:x, y:y}
+    }
+    
+    /* Detecta tecla clickeada y la compara con las de la palabra ya elegida al azar */
+    function selecciona(e){
+        var pos = ajusta(e.clientX, e.clientY);
+        var x = pos.x;
+        var y = pos.y;
+        var tecla;
+        var bandera = false;
+        for (var i = 0; i < teclas_array.length; i++){
+            tecla = teclas_array[i];
+            if (tecla.x > 0){
+                if ((x > tecla.x) && (x < tecla.x + tecla.ancho) && (y > tecla.y) && (y < tecla.y + tecla.alto)){
+                    break;
+                }
+            }
+        }
+        if (i < teclas_array.length){
+            for (var i = 0 ; i < palabra.length ; i++){ 
+                letra = palabra.substr(i, 1);
+                if (letra == tecla.letra){ /* comparamos y vemos si acerto la letra */
+                    caja = letras_array[i];
+                    caja.dibujaLetra();
+                    aciertos++;
+                    bandera = true;
+                }
+            }
+            if (bandera == false){ /* Si falla aumenta los errores y checa si perdio para mandar a la funcion gameover */
+                errores++;
+                horca(errores);
+                if (errores == 5) gameOver(errores);
+            }
+            /* Borra la tecla que se a presionado */
+            ctx.clearRect(tecla.x - 1, tecla.y - 1, tecla.ancho + 2, tecla.alto + 2);
+            tecla.x - 1;
+            /* checa si se gano y manda a la funcion gameover */
+            if (aciertos == palabra.length) gameOver(errores);
+        }
+    }
+    
+    /* Borramos las teclas y la palabra con sus cajas y mandamos msj segun el caso si se gano o se perdio */
+    function gameOver(errores){
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        ctx.fillStyle = "black";
+        ctx.font = "bold 50px Courier";
+        if (errores < 5){
+            ctx.fillText("Muy bien, la palabra es: ", 110, 280);
+        } else {
+            ctx.fillText("Lo sentimos, la palabra era: ", 110, 280);
+        }
+        ctx.font = "bold 80px Courier";
+        lon = (canvas.width - (palabra.length*48))/2;
+        ctx.fillText(palabra, lon, 380);
+        horca(errores);
+    }
+    
+    /* Detectar si se a cargado nuestro contexco en el canvas, iniciamos las funciones necesarias para jugar o se le manda msj de error segun sea el caso */
+    window.onload = function(){
+        canvas = document.getElementById("pantalla");
+        if (canvas && canvas.getContext){
+            ctx = canvas.getContext("2d");
+            if(ctx){
+                teclado();
+                pintaPalabra();
+                horca(errores);
+                canvas.addEventListener("click", selecciona, false);
+            } else {
+                alert ("Error al cargar el contexto!");
+            }
+        }
+    }
+</script>
+
+
+
+</SECTION>
+
+</main>
+</div>
+
+</br>
+</br>
+</br>
+<!-- Boton para subir -->
+<a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up"></span></a>
+
+<!-- FOOTER -->
+
+<footer class="container-fluid">
+	<ul>
+		<li>UNAD Jose Acevedo y Gomez - Dg. 17 Sur #33-24,  Bogotá D.C Colombia</li>
+		<li><a href="tel:01-800-0115223"><span class="glyphicon glyphicon-phone-alt"></span> PBX: 01-800-0115223</a></li>
+		<li><a href="mailto:bdtorresr@unadvirtual.edu.co"><span class="glyphicon glyphicon-envelope"></span> bdtorresr@unadvirtual.edu.co ; Qdmunars@unadvirtual.edu.co ; mrondons@unadvirtual.edu.co </a></li>
+		<li><a href="#"><span class="glyphicon glyphicon-globe"></span><span> www.seguridadinformatica.edu.co</span></a></li>
+	</ul>
+	<ul class="redes">
+		<li><a href="#"><img src="images/facebook-04.png"> Facebook</a></li>
+		<li><a href="#"><img src="images/instagram-04.png"> Instagram</a></li>
+		<li><a href="#"><img src="images/twitter-04.png"> Twitter</a></li>
+		<li><a href="#"><img src="images/youtube-04.png"> YouTube</a></li>
+	</ul>
+</footer>
+
+<!-- MODAL INICIO DE SESIÓN -->
+
+
+<script>
+$(document).ready(function(){
+     $(window).scroll(function () {
+            if ($(this).scrollTop() > 50) {
+                $('#back-to-top').fadeIn();
+            } else {
+                $('#back-to-top').fadeOut();
+            }
+        });
+        // scroll body to 0px on click
+        $('#back-to-top').click(function () {
+            $('#back-to-top').tooltip('hide');
+            $('body,html').animate({
+                scrollTop: 0
+            }, 800);
+            return false;
+        });
+        
+        $('#back-to-top').tooltip('show');
+
+});
+</script>
+
+
+<script>
+$('ul.nav li.dropdown').hover(function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+}, function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+});
+</script>
+
+
+</body>
+</html>
